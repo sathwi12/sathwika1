@@ -13,4 +13,4 @@ this is link to [Google](www.google.co.in)
 
 Your Photo:
 
-![Sivaiah](gitam-logo1.jpg)
+![Sathwika]
