@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>hello</pattern>
+    <template>hey, how can i help you?</template>
+</category>
+<category>
+    <pattern>hi</pattern>
+    <template><srai>hello</srai></template>
+</category>
+<category>
+    <pattern>i want to know about the courses at gitam university</pattern>
+    <template>there are different schools at gitam , like SCHOOL OF TECHNOLOGY SCHOOL OF HUMANITIES SCHOOL OF PHARMACY</template>
+</category>
+<category>
+    <pattern>SCHOOL OF TECHNOLOGY</pattern>
+    <template>okay,Gitam provides many courses like CSE,ECE,MECH,CIVIL,AERO with different specialisations like AIML, IOT etc</template>
+</category>
+<category>
+    <pattern>How much is the fee per annum?</pattern>
+    <template>
+        <link>
+            <text>click below link</text>
+            <url>https://www.gitam.edu/fee-structure</url>
+        </link>
+    </template>
+</category>
+<category>
+    <pattern>is gitam university affiliated?</pattern>
+    <template>gitam is affiliated by Andhra University</template>
+</category>
+<category>
+    <pattern>how is the admission process going to be at gitam?</pattern>
+    <template>you will first gave to pass in  GAT which is gitam admission test 
+    and then you will be eligible to join  </template>
+</category>
+<category>
+    <pattern>where can i get the contact details?</pattern>
+    <template>
+        <link>
+            <text>refer from the below link</text>
+            <url>https://www.gitam.edu/</url>
+        </link>
+      
+    </template>
+ </category>
+ <category>
+    <pattern>thankyou</pattern>
+    <template>your welcome!</template>
+ </category>
+ <category>
+    <pattern>thanks</pattern>
+    <template><srai>thankyou</srai></template>
+ </category>
+</aiml>
